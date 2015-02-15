@@ -211,7 +211,7 @@ span.lastname{
     -webkit-transform: translate(-2px,-3px);
     -ms-transform: translate(-2px,-3px);
     transform: translate(-2px,-3px);
-    -webkit-animation: radar 1s infinite lineaer;
+    -webkit-animation: radar 0s infinite lineaer;
     animation: radar 1s infinite linear;
 }
 
