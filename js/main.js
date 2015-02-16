@@ -9,16 +9,6 @@ function isInBlog() {
 
 $(document).ready(function () {
 
-
-  // scroll - accueil-link
-  $("#accueil-link").click(function (e) {
-    e.preventDefault();
-    $('html, body').animate({
-      scrollTop: 0
-    }, 800);
-  });
-
-
   // scroll - btn-up
   $(".btn-up").click(function () {
     $('html, body').animate({
