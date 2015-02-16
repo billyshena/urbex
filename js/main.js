@@ -2,6 +2,10 @@
  * Created by bshen on 14/02/15.
  */
 
+function isInBlog() {
+  var reg = /blog/;
+  return reg.test(document.location.pathname);
+}
 
 $(document).ready(function () {
 
@@ -42,11 +46,16 @@ $(document).ready(function () {
 
   // scroll - streetLink
   $("#street-link").click(function (e) {
-    e.preventDefault();
 
-    $('html, body').animate({
-      scrollTop: $("#street-session").offset().top
-    }, 800);
+    if (!isInBlog()) {
+      e.preventDefault();
+
+      $('html, body').animate({
+        scrollTop: $("#street-session").offset().top
+      }, 800);
+    }
+
+
   });
 
   // scroll - teamLink
