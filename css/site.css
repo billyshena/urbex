@@ -40,10 +40,58 @@ html, body {
 .item-7{
     background: url('../img/img-7.jpg') no-repeat;
 }
-
+.sub-title{
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 285px;
+    font-size: 14px;
+    font-family:'Avenirlight'
+}
+.half-sub-title{
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 140px;
+    font-size: 14px;
+    font-family:'Avenirlight'
+}
+.discover{
+    color: #6febc8;
+    border: 1px solid #6febc8;
+    border-radius: 2px;
+    padding: 14px 36px;
+    font-size: 14px;
+    line-height: 428px;
+    font-family: 'Avenirlight'
+}
+.discover-half:hover{
+    color: #6febc8;
+}
+.discover-half{
+    color: #6febc8;
+    border: 1px solid #6febc8;
+    border-radius: 2px;
+    padding: 14px 36px;
+    font-size: 14px;
+    line-height: 268px;
+    font-family: 'Avenirlight'
+}
+#social-media a{
+    font-size:20px;
+}
+.discover:hover{
+    color:#6febc8;
+}
 .picture{
     background-position:50% 50%;
+    background-size: 100% 100%;
     position:relative;
+}
+.picture-text{
+    line-height:200px;
 }
 .picture:after {
     content:'\A';
@@ -134,7 +182,7 @@ section {
 }
 
 .green{
-    color:rgb(56, 237, 189);
+    color:#6febc8;
 }
 
 .white{
@@ -169,6 +217,9 @@ a:hover{
 .member a{
     font-family: Avenirlight;
 }
+.member-wrapper{
+    padding:80px;
+}
 .member p {
     color:black;
     font-size:14px;
@@ -190,8 +241,8 @@ span.lastname{
     text-transform: uppercase;
 }
 .social-text{
-    font-size:24px;
-    font-family: 'Avenir';
+    font-size:15px;
+    font-family: 'Source Sans Pro';
     line-height:40px;
 }
 
@@ -268,7 +319,7 @@ span.lastname{
     margin:0 auto;
 }
 p.p-street{
-    color:rgb(56, 237, 189);font-size:18px;font-family: 'Avenir'; text-transform: uppercase;
+    color:rgb(56, 237, 189);font-size:14px;font-family: 'Avenir'; text-transform: uppercase;
 }
 .clear{
     clear:both;
@@ -306,7 +357,7 @@ p.p-street{
 .menu li a{
     text-transform: uppercase;
     color:white;
-    font-size:14px;
+    font-size:12px;
     position:relative;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -366,9 +417,10 @@ p.p-street{
     margin: 0;
 }
 .avenir{
-    font-family: 'Helvetica Neue';
+    font-family: 'Source Sans Pro';
     letter-spacing:0px;
     font-size:16px;
+    margin-top:-20px;
     font-weight:100;
 
 }
