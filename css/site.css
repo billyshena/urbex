@@ -527,6 +527,149 @@ span.lastname {
     font-family: Painterz;
 }
 
+/* blog */
+.blog {
+
+}
+
+.blog > .blog-content p {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-weight: 100;
+
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #333333;
+    line-height: 36px;
+}
+
+.blog > .blog-content img {
+    border: 3px solid black;
+}
+
+.blog-description-date, .blog .previous-article {
+    color: #76ffd8;
+    font-size: 16px;
+    text-align: left;
+}
+
+.blog-description-social a {
+    background: #000000;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    color: #76ffd8;
+    font-size: 22px;
+}
+
+.blog .previous-article-icon {
+    border: 1px solid #76ffd8;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+.btn-black, .btn-black:hover, .btn-black:active, .btn-black:focus {
+    background: #000;
+    color: #76ffd8;
+    font-weight: 100;
+}
+
+.blog .btn-up .angle-up {
+    padding-right: 10px;
+}
+
+.blog-comments {
+    background: #7b7b7b;
+
+}
+
+.blog-comments-form {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.blog-comments-form-legend {
+    text-align: left;
+    border: none;
+    color: #76ffd8;
+    margin: 0;
+}
+
+.blog-comments-form .form-control {
+    background: #6d6d6d;
+    border: none;
+    box-shadow: none;
+    color: #3a3a3a;
+}
+
+.blog-comments-form hr {
+    background: #e0e0e0;
+}
+
+.blog-comments-form .form-control:focus {
+    border: none;
+}
+
+/* individual: webkit */
+.blog-comments-form .form-control::-webkit-input-placeholder {
+    color: #3a3a3a;
+}
+
+/* individual: mozilla */
+.blog-comments-form .form-control::-moz-placeholder {
+    color: #3a3a3a;
+}
+
+.blog-comments-img {
+    margin: auto;
+}
+
+.img-circle {
+    border: 2px solid #76ffd8;
+}
+
+.blog-comment-name, .blog-comment-date {
+    text-align: left;
+    line-height: 30px;
+}
+
+.blog-comment-name {
+    margin-top: 32px;
+    line-height: 16px;
+    color: #76ffd8;
+    font-size: 18px;
+}
+
+.blog-comment-date {
+    font-size: 14px;
+    color: #333333;
+    font-style: italic;
+}
+
+.blog-comment-content {
+    margin-left: 60px;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 22px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #3a3a3a;
+    margin-bottom: 30px;
+}
+
 @media screen and (max-width: 640px) {
 
 }
+
+
+
+
+
+
+
+

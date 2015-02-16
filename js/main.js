@@ -14,10 +14,29 @@ $(document).ready(function () {
     }, 800);
   });
 
+
+  // scroll - btn-up
+  $(".btn-up").click(function () {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 800);
+  });
+
   // scroll - invit-scroll
-  $("#invit-scroll").click(function () {
+  $("#invit-scroll").click(function (e) {
+    e.preventDefault();
+
     $('html, body').animate({
       scrollTop: $("#street-session").offset().top
+    }, 800);
+  });
+
+  // scroll - invit-scroll
+  $("#invit-scroll-blog").click(function (e) {
+    e.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $("#blog-container").offset().top
     }, 800);
   });
 
