@@ -16,23 +16,24 @@
 
 <body>
 
-<div class="fullscreen background" style="background-image:url('img/background.jpg');" data-img-width="1600" data-img-height="1064">
+<div class="fullscreen background" style="background-image:url('img/background.jpg');" data-img-width="1600"
+     data-img-height="1064">
 
     <!-- top header -->
     <div class="row top-header">
         <div class="col-md-4 logo-wrapper">
             <a href="#" class="white avenir logo wow bounceInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <span style="border-bottom:2px solid white;text-transform: uppercase">Urbex</span> CONNEXION
+                <span class="logo painterz">Urbex Connexion</span>
             </a>
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-6 navigation wow bounceInRight" data-wow-duration="1s" data-wow-delay="1s">
             <nav class>
                 <ul class="menu">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Street section</a></li>
-                    <li><a href="#">Urbex team</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" id="accueil-link">Accueil</a></li>
+                    <li><a href="#" id="street-link">Street session</a></li>
+                    <li><a href="#" id="team-link">Urbex team</a></li>
+                    <li><a href="#" id="contact-link">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -43,9 +44,14 @@
     <!-- text content -->
     <div class="content-a wow fadeIn" data-wow-duration="3.6s">
         <div class="home-text content-b">
+
+            <p class="p-street white">Next street session</p>
+
             <h1>Sanotarium de la langue</h1>
+
             <p class="p-street">Prochaine session Vendredi 20 février</p>
-            <div class="invit_scroll">
+
+            <div class="invit_scroll" id="invit-scroll">
                 <span id="go_scroll" class="btn_scroll"></span>
             </div>
         </div>
@@ -54,40 +60,49 @@
 </div>
 
 <!-- Street session post -->
-<div class="not-fullscreen bg-grey painterz">
+<div class="not-fullscreen bg-grey painterz" id="street-session">
     <div class="content-a">
         <div class="content-b street-session">
             <h2 class="green wow bounceInUp" data-wow-duration="1.4s">Street session</h2>
-            <p class="white avenir wow fadeIn" data-wow-duration="1s">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+
+            <p class="white avenir wow fadeIn" data-wow-duration="1s">Le Lorem Ipsum est simplement du faux texte
+                employé dans la composition et la mise en page avant impression.</p>
         </div>
     </div>
 </div>
 <!-- /Street session post -->
 
 
-
 <!-- Pictures -->
 <div class="background bg-black">
     <div class="row no-margin">
         <div class="col-md-5">
-            <div class="col-md-12 img-row picture item-1 wow fadeIn" data-wow-duration="1.6s" data-wow-delay="0.6s" >
+            <div class="col-md-12 img-row picture item-1 wow fadeIn" data-wow-duration="1.6s" data-wow-delay="0.6s">
                 <h3 class="painterz picture-text">Sanatorium de la langue</h3>
+
                 <h3 class="sub-title green">Mardi 5 décembre 2014</h3>
+
                 <h3>
                     <a href="" class="discover">Découvrir</a>
                 </h3>
             </div>
-            <div class="col-md-12 img-child-row picture item-6 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.3s">
+            <div class="col-md-12 img-child-row picture item-6 wow fadeIn" data-wow-duration="1.3s"
+                 data-wow-delay="1.3s">
                 <h3 class="painterz">La petite ceinture</h3>
+
                 <h3 class="half-sub-title green">Mardi 5 décembre 2014</h3>
+
                 <h3>
                     <a href="" class="discover-half">Découvrir</a>
                 </h3>
 
             </div>
-            <div class="col-md-12 img-child-row picture item-7 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.3s">
+            <div class="col-md-12 img-child-row picture item-7 wow fadeIn" data-wow-duration="1.3s"
+                 data-wow-delay="1.3s">
                 <h3 class="painterz">La petite ceinture</h3>
+
                 <h3 class="half-sub-title green">Mardi 5 décembre 2014</h3>
+
                 <h3>
                     <a href="" class="discover-half">Découvrir</a>
                 </h3>
@@ -95,32 +110,44 @@
         </div>
 
         <div class="col-md-7">
-            <div class="col-md-12 img-child-row picture item-2 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.3s">
+            <div class="col-md-12 img-child-row picture item-2 wow fadeIn" data-wow-duration="1.3s"
+                 data-wow-delay="1.3s">
                 <h3 class="painterz">La petite ceinture</h3>
+
                 <h3 class="half-sub-title green">Mardi 5 décembre 2014</h3>
+
                 <h3>
                     <a href="" class="discover-half">Découvrir</a>
                 </h3>
             </div>
             <div class="col-md-12">
-                <div class="col-md-6 img-child-row picture item-3 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.3s">
+                <div class="col-md-6 img-child-row picture item-3 wow fadeIn" data-wow-duration="1.3s"
+                     data-wow-delay="1.3s">
                     <h3 class="painterz">La petite ceinture</h3>
+
                     <h3 class="half-sub-title green">Mardi 5 décembre 2014</h3>
+
                     <h3>
                         <a href="" class="discover-half">Découvrir</a>
                     </h3>
                 </div>
-                <div class="col-md-6 img-child-row picture item-4 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.7s">
+                <div class="col-md-6 img-child-row picture item-4 wow fadeIn" data-wow-duration="1.3s"
+                     data-wow-delay="1.7s">
                     <h3 class="painterz">La petite ceinture</h3>
+
                     <h3 class="half-sub-title green">Mardi 5 décembre 2014</h3>
+
                     <h3>
                         <a href="" class="discover-half">Découvrir</a>
                     </h3>
                 </div>
             </div>
-            <div class="col-md-12 img-row picture item-5 wow fadeInRight" data-wow-duration="1.3s" data-wow-delay="1.3s">
+            <div class="col-md-12 img-row picture item-5 wow fadeInRight" data-wow-duration="1.3s"
+                 data-wow-delay="1.3s">
                 <h3 class="painterz">La petite ceinture</h3>
+
                 <h3 class="sub-title green">Mardi 5 décembre 2014</h3>
+
                 <h3>
                     <a href="" class="discover">Découvrir</a>
                 </h3>
@@ -131,11 +158,13 @@
 <!-- /Pictures -->
 
 <!-- Street session post -->
-<div class="not-fullscreen bg-grey painterz">
+<div class="not-fullscreen bg-grey painterz" id="team">
     <div class="content-a">
         <div class="content-b street-session">
             <h2 class="green wow bounceInUp" data-wow-duration="1.4s">Urbex Team</h2>
-            <p class="white avenir wow fadeIn" data-wow-duration="1s">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+
+            <p class="white avenir wow fadeIn" data-wow-duration="1s">Le Lorem Ipsum est simplement du faux texte
+                employé dans la composition et la mise en page avant impression.</p>
         </div>
     </div>
 </div>
@@ -146,49 +175,60 @@
         <div class="content-b">
             <div class="row member-wrapper">
                 <div class="col-md-3 member">
-                    <a href="">
-                        <img src="img/miss.png" height="128px" width="128px" alt="Miss" class="img-circle"/>
-                        <h4 class="fullname"> <span class="firstname">Billy</span> <span class="lastname">Shen</span></h4>
-                        <h5>Développeur web</h5>
-                        <p>
-                            Contrary popular belief, Lorem Ipsum is not simply random text.
-                            It has roots in a piece of literature
-                        </p>
-                    </a>
+                    <div class="img-losange">
+                        <img src="img/miss.png" height="200px" width="200px" alt="Miss"/>
+                    </div>
+                    <h4 class="fullname"><span class="firstname">Billy</span> <span class="lastname">Shen</span>
+                    </h4>
+                    <h5>Développeur web</h5>
+
+                    <p>
+                        Contrary popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of literature
+                    </p>
                 </div>
 
                 <div class="col-md-3 member">
-                    <a href="">
-                        <img src="img/miss.png" height="128px" width="128px" alt="Miss" class="img-circle"/>
-                        <h4 class="fullname"> <span class="firstname">Billy</span> <span class="lastname">Shen</span></h4>
-                        <h5>Développeur web</h5>
-                        <p>
-                            Contrary popular belief, Lorem Ipsum is not simply random text.
-                            It has roots in a piece of literature
-                        </p>
-                    </a>
+                    <div class="img-losange">
+                        <img src="img/miss.png" height="200px" width="200px" alt="Miss"/>
+                    </div>
+                    <h4 class="fullname"><span class="firstname">Billy</span> <span class="lastname">Shen</span>
+                    </h4>
+                    <h5>Développeur web</h5>
+
+                    <p>
+                        Contrary popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of literature
+                    </p>
+
                 </div>
                 <div class="col-md-3 member">
-                    <a href="">
-                        <img src="img/miss.png" height="128px" width="128px" alt="Miss" class="img-circle"/>
-                        <h4 class="fullname"> <span class="firstname">Billy</span> <span class="lastname">Shen</span></h4>
-                        <h5>Développeur web</h5>
-                        <p>
-                            Contrary popular belief, Lorem Ipsum is not simply random text.
-                            It has roots in a piece of literature
-                        </p>
-                    </a>
+                    <div class="img-losange">
+                        <img src="img/miss.png" height="200px" width="200px" alt="Miss"/>
+                    </div>
+                    <h4 class="fullname"><span class="firstname">Billy</span> <span class="strong">Shen</span>
+                    </h4>
+                    <h5>Développeur web</h5>
+
+                    <p>
+                        Contrary popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of literature
+                    </p>
+
                 </div>
                 <div class="col-md-3 member">
-                    <a href="">
-                        <img src="img/miss.png" height="128px" width="128px" alt="Miss" class="img-circle"/>
-                        <h4 class="fullname"> <span class="firstname">Billy</span> <span class="lastname">Shen</span></h4>
-                        <h5>Développeur web</h5>
-                        <p>
-                            Contrary popular belief, Lorem Ipsum is not simply random text.
-                            It has roots in a piece of literature
-                        </p>
-                    </a>
+                    <div class="img-losange">
+                        <img src="img/miss.png" height="200px" width="200px" alt="Miss"/>
+                    </div>
+                    <h4 class="fullname"><span class="firstname">Billy</span> <span class="lastname">Shen</span>
+                    </h4>
+                    <h5>Développeur web</h5>
+
+                    <p>
+                        Contrary popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of literature
+                    </p>
+
                 </div>
 
                 <div class="clearfix"></div>
@@ -220,6 +260,7 @@
 <!-- Javascript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/background.js"></script>
+<script src="js/main.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/animations.js"></script>
 </body>
