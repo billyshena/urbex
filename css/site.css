@@ -712,6 +712,7 @@ h2 {
     .menu > li {
         width: 25%;
         margin: 0;
+        line-height: normal;
     }
 
     .blog-comment-content {
