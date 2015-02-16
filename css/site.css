@@ -677,7 +677,7 @@ h2 {
 }
 
 .blog-comment-name {
-    margin-top: 32px;
+    margin-top: 14px;
     line-height: 16px;
     color: #76ffd8;
     font-size: 18px;
@@ -690,7 +690,7 @@ h2 {
 }
 
 .blog-comment-content {
-    margin-left: 60px;
+    margin-left: 80px;
     font-size: 14px;
     font-weight: 100;
     line-height: 22px;
@@ -715,7 +715,7 @@ h2 {
     }
 
     .blog-comment-content {
-        margin: 0;
+        margin-left: 0;
     }
 }
 
