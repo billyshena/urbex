@@ -725,6 +725,15 @@ h2 {
     }
 }
 
+.blog-menu a {
+    font-size: 18px;
+}
+
+.blog-menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 700px) {
     .menu > li {
         width: 100%;
