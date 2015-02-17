@@ -91,6 +91,10 @@ html, body {
     font-family: 'Avenirlight'
 }
 
+#social-media {
+    margin-bottom: 12px;
+}
+
 #social-media a {
     font-size: 20px;
 }
@@ -209,7 +213,7 @@ section {
 }
 
 .not-fullscreen {
-    height: 30%;
+    height: 25%;
 }
 
 a:hover {
