@@ -595,7 +595,7 @@ h2 {
     line-height: 100px;
 }
 
-.blog-description-date, .blog .previous-article {
+.blog-description-date, .blog .previous-article, .blog .previous-article a {
     color: #76ffd8;
     font-size: 16px;
     text-align: left;
