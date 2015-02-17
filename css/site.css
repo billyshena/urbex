@@ -718,6 +718,15 @@ h2 {
     margin-bottom: 30px;
 }
 
+.blog-menu a {
+    font-size: 18px;
+}
+
+.blog-menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1000px) {
     .md-text-center {
         display: inline-block;
@@ -736,21 +745,21 @@ h2 {
     .blog-comment-content {
         margin-left: 0;
     }
-}
 
-.blog-menu a {
-    font-size: 18px;
-}
+    .member {
+        margin-top: 60px;
+    }
 
-.blog-menu a:hover {
-    color: #ffffff;
-    text-decoration: underline;
 }
 
 @media screen and (max-width: 700px) {
     .menu > li {
         width: 100%;
         display: block;
+    }
+
+    .home-text .p-street:first-child {
+        margin-top: 200px;
     }
 }
 

@@ -50,10 +50,11 @@ $(document).ready(function () {
 
   // scroll - teamLink
   $("#team-link").click(function (e) {
-    e.preventDefault();
+    if (!isInBlog()) {
+      e.preventDefault();
 
-    $('html, body').animate({
-      scrollTop: $("#team").offset().top
-    }, 800);
+      $('html, body').animate({
+        scrollTop: $("#team").offset().top
+      }, 800);
+    }
   });
-});
