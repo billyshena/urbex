@@ -110,6 +110,7 @@ a.discover:visited, a.discover:focus, a.discover:hover {
 
 .picture {
     background-position: 50% 50%;
+    background-size: cover;
     position: relative;
 }
 
