@@ -77,6 +77,11 @@ html, body {
     font-family: 'Avenirlight'
 }
 
+a.discover:visited, a.discover:focus, a.discover:hover {
+    color: #6febc8;
+    text-decoration: none;
+}
+
 .discover-half:hover {
     color: #6febc8;
 }
