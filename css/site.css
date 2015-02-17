@@ -369,6 +369,19 @@ span.lastname {
     text-transform: uppercase;
 }
 
+a.p-street {
+    display: block;
+    margin: 30px auto;
+    border: 1px solid rgb(56, 237, 189);
+    max-width: 170px;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+a.p-street:hover {
+    color: rgb(56, 237, 189);
+}
+
 .clear {
     clear: both;
 }
