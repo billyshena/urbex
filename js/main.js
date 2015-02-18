@@ -6,7 +6,7 @@ function isInBlog() {
   var regBlog = /blog/;
   var regContact = /contact/;
 
-  return regBlog.test(document.location.pathname) || regregContactBlog.test(document.location.pathname);
+  return regBlog.test(document.location.pathname) || regContact.test(document.location.pathname);
 }
 
 $(document).ready(function () {
