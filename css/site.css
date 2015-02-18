@@ -235,13 +235,6 @@ a:hover {
     src: url(../fonts/Avenir-light.ttf);
 }
 
-.btn_scroll:before {
-    -webkit-animation: radar 1.3s infinite linear;
-    animation: radar 1.3s infinite linear;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-}
-
 .member {
     font-family: Avenirlight;
 }
@@ -298,63 +291,39 @@ span.lastname {
     color: #76ffd8;
 }
 
-.btn_scroll:after, .btn_scroll:before {
-    content: "";
-    display: block;
-    opacity: 0;
-    position: absolute;
-    width: 36px;
-    height: 36px;
-    border-radius: 35px;
-    border: 1px solid white;
-    background: 0 0;
-    -webkit-transform: translate(-2px, -3px);
-    -ms-transform: translate(-2px, -3px);
-    transform: translate(-2px, -3px);
-    -webkit-animation: radar 0s infinite lineaer;
-    animation: radar 1s infinite linear;
+.btn_scroll:before {
+    -webkit-animation: radar 1.3s infinite linear;
+    animation: radar 1.3s infinite linear;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 .btn_scroll {
-    position: relative;
+    position: absolute;
+    margin-top: -23px;
+    margin-left: -15px;
     display: block;
     background: url(../img/go_scroll.png) center no-repeat transparent;
     width: 32px;
     height: 32px;
     border-radius: 35px;
-    margin: 0 auto;
     cursor: pointer;
 }
 
-.invit_scroll:after, .invit_scroll:before {
-    content: "";
-    display: block;
-    height: 1px;
-    width: 60px;
-    background: #828d92;
-    position: absolute;
-    top: 17px;
-}
-
 .invit_scroll {
-    position: relative;
-    width: 200px;
-    height: 35px;
+    position: absolute;
+    bottom: -25px;
     margin: 0 auto;
+    left: calc(50% - 20px);
+    height: 60px;
+    width: 60px;
+
+    border-radius: 50%;
+    border: 30px solid #333;
 }
 
 .invit_scroll:after {
     right: 0;
-}
-
-.invit_scroll:after, .invit_scroll:before {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 60px;
-    background: white;
-    position: absolute;
-    top: 17px;
 }
 
 @font-face {
