@@ -3,8 +3,10 @@
  */
 
 function isInBlog() {
-  var reg = /blog/;
-  return reg.test(document.location.pathname);
+  var regBlog = /blog/;
+  var regContact = /contact/;
+
+  return regBlog.test(document.location.pathname) || regregContactBlog.test(document.location.pathname);
 }
 
 $(document).ready(function () {
