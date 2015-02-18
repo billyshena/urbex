@@ -60,4 +60,15 @@ $(document).ready(function () {
       }, 800);
     }
   });
+
+  // scroll - contact-link
+  $("#contact-link").click(function (e) {
+    if (!isInBlog()) {
+      e.preventDefault();
+
+      $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+      }, 800);
+    }
+  });
 })
