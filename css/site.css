@@ -250,6 +250,8 @@ a:hover {
 
 .member-wrapper {
     padding: 80px;
+    padding-bottom: 18px;
+    max-width: 1200px;
 }
 
 .member p {
@@ -566,6 +568,25 @@ h2 {
 
 .painterz {
     font-family: Painterz;
+}
+
+.contact-separator {
+    border-top: 1px solid #76ffd8;
+}
+
+.nous-contacter, .nous-contacter-paragraph {
+    color: #333;
+    font-family: AvenirMedium;
+    font-size: 16px;
+}
+
+.nous-contacter {
+    height: 80px;
+}
+
+.nous-contacter-paragraph {
+    font-family: Avenir;
+    font-size: 14px;
 }
 
 /* blog */
