@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <title>Urbex Connexion</title>
     <meta name="description" content="Fullscreen backgrounds with centered content">
-
+    <!-- Metas -->
+    <meta name="description"
+          content="Bienvenue sur notre blog d'Urbex. Suivez ici nos explorations les plus insolites."/>
+    <meta name="og:image" content="http://www.urbex-connexion.com/img/background.jpg"/>
+    <meta name="og:description"
+          content="Bienvenue sur notre blog d'Urbex. Suivez ici nos explorations les plus insolites."/>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
@@ -129,7 +134,7 @@
                     <input class="form-control" type="text" placeholder="Votre nom"/>
                 </div>
                 <div class="form-group col-md-6">
-                    <input class="form-control" type="text" placeholder="Votre email"/>
+                    <input class="form-control" type="text" placeholder="Message..."/>
                 </div>
             </div>
 
@@ -193,7 +198,23 @@
     </div>
 </div>
 
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+    ga('create', 'UA-59894167-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
 <!-- Javascript -->
 <script src="/js/jquery-1.11.2.min.js"></script>
 <script src="/js/background.js"></script>
